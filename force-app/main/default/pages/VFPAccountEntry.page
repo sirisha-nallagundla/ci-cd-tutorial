@@ -1,0 +1,18 @@
+<apex:page title="VFPAccountEntry" standardController="Account">
+  <apex:form >
+   <apex:pageBlock tabStyle="Account" >
+    <apex:pageBlockSection title="Account information">
+    <apex:inputField value="{!Account.name}"/> <br/>
+    <apex:inputField value="{!Account.Rating}"/> <br/>
+    <apex:inputField value="{!Account.Annualrevenue}"/> <br/>
+    <apex:inputField value="{!Account.Industry}"/> <br/>
+
+       </apex:pageBlockSection>
+       <apex:pageBlockButtons >
+              <apex:commandButton value="save" action="{!save}"/>
+              <apex:commandLink value="save"/>
+   </apex:pageBlockButtons>
+
+   </apex:pageBlock> 
+  </apex:form>
+</apex:page>

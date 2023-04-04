@@ -1,0 +1,27 @@
+<apex:page title="vfpintro1">
+    line1<br/>
+     line1<br/>
+    line1<br/>
+<apex:pageBlock title="page">
+    line2<br/>   
+    line2<br/>   
+    line2<br/>   
+<apex:pageBlockSection title="page section" collapsible="true">
+    line3<br/>   
+      line3<br/>   
+    line3<br/>   
+<apex:pageBlockSectionItem >
+    line4<br/>  
+    line4<br/>  
+    line4<br/>  
+<apex:pageBlockSectionItem >
+    
+    line5<br/>
+    line5<br/>
+    line5<br/>
+  
+    </apex:pageBlockSectionItem>
+ </apex:pageBlockSectionItem>  
+</apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

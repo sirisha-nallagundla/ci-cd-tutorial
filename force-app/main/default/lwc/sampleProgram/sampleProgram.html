@@ -1,0 +1,9 @@
+<template>
+ <lightning-card title="Biggest Number" icon-name="standard:lead">
+<lightning-input type="number" label="First Number" onchange={FirstInputFunction} value={inputNumber1}></lightning-input><br/>
+<lightning-input type="number" label="Second Number" onchange={SecondInputFunction} value={inputNumber2}></lightning-input><br/>
+<lightning-input type="number" label="Third Number" onchange={ThirdInputFunction} value={inputNumber3}></lightning-input>
+<lightning-button label="getResult" onclick={submit}></lightning-button>
+<lightning-button label="Reset" onclick={ClearData}></lightning-button>
+</lightning-card>   
+</template>

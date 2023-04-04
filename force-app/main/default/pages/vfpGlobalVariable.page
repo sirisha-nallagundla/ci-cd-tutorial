@@ -1,0 +1,22 @@
+<apex:page title="vfpGlobalVariables">
+<apex:pageBlock >  Hello {!$User.FirstName} {!$User.LastName} <br/>
+  Rahul belongs to this ( {!$User.CompanyName} ) company <br/>
+  The email id associated with user is ... {!$User.Email} <br/>
+  I want to confirm that user is active user or not ,if user is
+   active then the out would be true ,if not active ,then the output wuld be false .... the user active status is (the output is .... ( <h1> {!$User.IsActive} </h1> )  <br/>
+   <br/>
+   <br/>
+   <br/>
+   <apex:pageBlockSection title="user profile details">
+     The profile this user is associated with is .... {!$Profile.Name} <br/>
+  The profile id for this user {!$User.FirstName} {!$User.LastName} is {!$Profile.Id}
+   </apex:pageBlockSection>
+   </apex:pageBlock>
+
+ <apex:pageBlock title="Current page details">   
+    The above data we are accessing within the page ,the page name is ....  {!$CurrentPage.Name} <br/>
+    The url of this current page is .... {!$CurrentPage.URL}
+  </apex:pageBlock>
+    
+  
+</apex:page>

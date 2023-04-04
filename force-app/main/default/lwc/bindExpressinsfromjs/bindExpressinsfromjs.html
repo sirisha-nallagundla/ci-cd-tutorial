@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Binding Expression from JS" icon-name="utility:user">
+     <div class="slds-var-m-around_medium">
+<lightning-input name="fullName" label="fullName" onchange={handleChange}></lightning-input>
+<lightning-input type="number" name="phone"  label="Enter a MobileNumber" onchange={handleChange}>
+
+</lightning-input>
+<lightning-input type="email" name="email" label="Email" onchange={handleChange}>
+
+</lightning-input>
+
+     </div>
+     <div style="padding:10px">
+        Full Name:{upperCase}<br/>
+        Phone Number:{phone}<br/>
+            Email:{Email}
+     </div>
+         </lightning-card>
+ </template>

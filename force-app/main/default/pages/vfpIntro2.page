@@ -1,0 +1,33 @@
+<apex:page title="vfpintro2" >
+    <!-- Hi good to know you started to learn vf -->
+    <br><h1> Congratulations </h1></br> 
+Line1 in vf page <br/>
+Line2 in vf page <br/>
+Line3 in vf page <br/> <br/>
+
+<apex:pageBlock tabStyle="Lead" >
+    Line4 in vf page <br/>
+    Line5 in vf page <br/>
+    Line6 in vf page <br/>
+    
+    <apex:pageBlockSection title="Page block section1" collapsible="false">
+        Line7 in vf page <br/>
+        Line8 in vf Page <br/>
+        Line9 in vf page <br/> 
+    </apex:pageBlockSection>
+    
+    <apex:pageBlockSection title="Page block section 2" >
+        Line10 in vf page <br/>
+        Line11 in vf Page <br/>
+        Line12 in vf page <br/> 
+        
+        <apex:pageBlockSectionItem >
+            Line13 in vf page <br/>
+            Line14 in vf Page <br/>
+            Line15 in vf page <br/> 
+        </apex:pageBlockSectionItem>
+    </apex:pageBlockSection>
+</apex:pageBlock>
+
+
+</apex:page>

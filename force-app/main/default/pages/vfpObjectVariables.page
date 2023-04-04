@@ -1,0 +1,15 @@
+<apex:page title="vfpObjectVariables " standardController="Account" >
+The name of the accoint is ..... : {!account.name } <br/>
+The rating of the account is .... : {!account.rating} <br/>
+The annualrevenue of this account is ... {!account.annualrevenue} <br/>
+The type of account is ... {!Account.type} <br/> <br/>
+<h1>
+So in case if you want to look into some other details , then kindly check the below block 
+</H1>
+<br/> <br/> <br/>
+  
+  <Apex:pageBlock >
+    <apex:detail relatedList="false" />
+    <apex:relatedList list="opportunities"/>
+  </Apex:pageBlock>
+</apex:page>

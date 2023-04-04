@@ -1,0 +1,23 @@
+<apex:page >
+    <!-- This is used to comment the line -->
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton />
+                <apex:commandLink />
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        
+        <!-- <apex:pageBlockTable></apex:pageBlockTable> -->
+        <!-- <apex:pageBlock ></apex:pageBlock> -->
+        <!-- <apex:column/>  -->
+        <!-- <apex:input/> -->
+        <!-- <apex:output/> -->
+        
+        
+    </apex:form>
+</apex:page>
